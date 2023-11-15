@@ -20,7 +20,7 @@ def mpesa():
     response = requests.request("POST", url, headers=headers, data=payload)
 
     print(response.text)
-#run()
+run()
 
 """from flask import Flask
 app = Flask(__name__)
